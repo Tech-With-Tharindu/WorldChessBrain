@@ -42,7 +42,7 @@ option name SyzygyProbeDepth type spin : 100
 option name Syzygy50MoveRule type check : true
 option name SyzygyProbeLimit type spin : 7
 option name Use NNUE type check : true
-option name EvalFile type check : "./nn-5b1ab128adca.nnue"
+option name EvalFile type check : "./nn-7d4db1088a42.nnue"
 #    go_commands:             # additional options to pass to the UCI go command
 #      nodes: 5000               # Search so many nodes only.
 #      depth: 20               # Search depth ply only.
