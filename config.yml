@@ -8,9 +8,10 @@ engine:                      # Engine settings.
   uci_ponder: true
   ponder: true               # Think on opponent's time.
   polyglot:
-    enabled: false           # Activate polyglot book.
+    enabled: true           # Activate polyglot book.
     book:
       standard:              # List of book file paths for variant standard.
+        - Cerebellum3Merge.bin
         - Goi5.1.bin
         - Drawkiller_EloZoom_big.bin
 #      atomic: # list of book file paths for variant atomic
@@ -42,7 +43,7 @@ option name SyzygyProbeDepth type spin : 100
 option name Syzygy50MoveRule type check : true
 option name SyzygyProbeLimit type spin : 7
 option name Use NNUE type check : true
-#option name EvalFile type check : "./nn-13406b1dcbe0.nnue"
+#option name EvalFile type check : "./nn-f243c9a825d8.nnue"
 #    go_commands:             # additional options to pass to the UCI go command
 #      nodes: 5000               # Search so many nodes only.
 #      depth: 20               # Search depth ply only.
